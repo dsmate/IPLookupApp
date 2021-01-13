@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ldap_server_url">
+    <ldap_server_url action="DELETE">
+        <active>true</active>
+        <operational_status>true</operational_status>
+        <order>200</order>
+        <server display_value="TEST LDAP Server">3b454ad72f296810bae5a1fef699b655</server>
+        <sys_class_name>ldap_server_url</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-12 04:58:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3485ca132fa96810bae5a1fef699b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>:389/</sys_name>
+        <sys_package display_value="IPLookup" source="x_61792_iplookup">966cdf0a2fe52410bae5a1fef699b6a7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IPLookup">966cdf0a2fe52410bae5a1fef699b6a7</sys_scope>
+        <sys_update_name>ldap_server_url_3485ca132fa96810bae5a1fef699b696</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-12 04:58:31</sys_updated_on>
+        <url>:389/</url>
+    </ldap_server_url>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IPLookup">966cdf0a2fe52410bae5a1fef699b6a7</application>
+        <file_path/>
+        <instance_id>52c16c33db7d7e800e785d00cf961912</instance_id>
+        <instance_name>dev33900</instance_name>
+        <name>ldap_server_url_3485ca132fa96810bae5a1fef699b696</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ldap_server_url"><ldap_server_url action="INSERT_OR_UPDATE"><active>true</active><operational_status>true</operational_status><order>200</order><server display_value="TEST LDAP Server">3b454ad72f296810bae5a1fef699b655</server><sys_class_name>ldap_server_url</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-12 04:58:31</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>3485ca132fa96810bae5a1fef699b696</sys_id><sys_mod_count>0</sys_mod_count><sys_name>:389/</sys_name><sys_package display_value="IPLookup" source="x_61792_iplookup">966cdf0a2fe52410bae5a1fef699b6a7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="IPLookup">966cdf0a2fe52410bae5a1fef699b6a7</sys_scope><sys_update_name>ldap_server_url_3485ca132fa96810bae5a1fef699b696</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-12 04:58:31</sys_updated_on><url>:389/</url></ldap_server_url></record_update>]]></payload>
+        <payload_hash>1326452906</payload_hash>
+        <record_name>:389/</record_name>
+        <reverted_from/>
+        <source>dd3546132fa96810bae5a1fef699b6e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-12 04:58:31</sys_created_on>
+        <sys_id>f485ca132fa96810bae5a1fef699b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176f4f5b1390000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-12 04:58:31</sys_updated_on>
+        <type>LDAP Server URL</type>
+        <update_guid>fc85ca13c9a9681050a671070d3e6c96</update_guid>
+        <update_guid_history>fc85ca13c9a9681050a671070d3e6c96:1326452906</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-01-11 20.58.57">9b950adf2f696810bae5a1fef699b6cd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-12 04:58:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="ldap_server_url">ldap_server_url</sys_db_object>
+        <sys_id>1cffa69845724fdb98c78729a96e6561</sys_id>
+        <sys_metadata>3485ca132fa96810bae5a1fef699b696</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>:389/</sys_name>
+        <sys_package display_value="IPLookup" source="x_61792_iplookup">966cdf0a2fe52410bae5a1fef699b6a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IPLookup">966cdf0a2fe52410bae5a1fef699b6a7</sys_scope>
+        <sys_scope_delete display_value="">6a76ef6ce72243288781572bc4de0440</sys_scope_delete>
+        <sys_update_name>ldap_server_url_3485ca132fa96810bae5a1fef699b696</sys_update_name>
+        <sys_update_version display_value="ldap_server_url_3485ca132fa96810bae5a1fef699b696">f485ca132fa96810bae5a1fef699b697</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-12 04:58:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

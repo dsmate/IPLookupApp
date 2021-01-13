@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description>Some developers prefer to script the entire integration without creating an Outbound REST Message</description>
+        <flush_cache>false</flush_cache>
+        <name>REST Script without REST Meesage</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[var getQuote = new sn_ws.RESTMessageV2();
+	// Set the endpoint
+	getQuote.setEndpoint('https://ipinfo.io/${ipaddress}/${specified_field1}');
+	// Set the HTTP method (get, post, put, patch, delete)
+	getQuote.setHttpMethod('get');
+	// Set values for endpoint variables
+	getQuote.setStringParameterNoEscape('ipaddress',"8.8.8.8");
+getQuote.setStringParameterNoEscape('specified_field1',"geo");
+       var response = getQuote.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+gs.addInfoMessage(" Body" +responseBody);
+
+gs.addInfoMessage(" Status" +httpStatus);]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-12 07:17:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bb05ead32f2d6810bae5a1fef699b68d</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>REST Script without REST Meesage</sys_name>
+        <sys_package display_value="IPLookup" source="x_61792_iplookup">966cdf0a2fe52410bae5a1fef699b6a7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IPLookup">966cdf0a2fe52410bae5a1fef699b6a7</sys_scope>
+        <sys_update_name>sys_script_fix_bb05ead32f2d6810bae5a1fef699b68d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-12 07:24:34</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers">
+    <sys_rest_message_fn_headers action="DELETE">
+        <name>Content-type</name>
+        <rest_message_function display_value="GetIPInfo">867ddfca2fe52410bae5a1fef699b69d</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 17:44:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>09f75d6e2f61a410bae5a1fef699b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content-type</sys_name>
+        <sys_package display_value="IPLookup" source="x_61792_iplookup">966cdf0a2fe52410bae5a1fef699b6a7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IPLookup">966cdf0a2fe52410bae5a1fef699b6a7</sys_scope>
+        <sys_update_name>sys_rest_message_fn_headers_09f75d6e2f61a410bae5a1fef699b63b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 17:44:35</sys_updated_on>
+        <value>application/json</value>
+    </sys_rest_message_fn_headers>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IPLookup">966cdf0a2fe52410bae5a1fef699b6a7</application>
+        <file_path/>
+        <instance_id>52c16c33db7d7e800e785d00cf961912</instance_id>
+        <instance_name>dev33900</instance_name>
+        <name>sys_rest_message_fn_headers_09f75d6e2f61a410bae5a1fef699b63b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Content-type</name><rest_message_function display_value="GetIPInfo">867ddfca2fe52410bae5a1fef699b69d</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-09 17:44:35</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>09f75d6e2f61a410bae5a1fef699b63b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Content-type</sys_name><sys_package display_value="IPLookup" source="x_61792_iplookup">966cdf0a2fe52410bae5a1fef699b6a7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="IPLookup">966cdf0a2fe52410bae5a1fef699b6a7</sys_scope><sys_update_name>sys_rest_message_fn_headers_09f75d6e2f61a410bae5a1fef699b63b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-09 17:44:35</sys_updated_on><value>application/json</value></sys_rest_message_fn_headers></record_update>]]></payload>
+        <payload_hash>-1164526061</payload_hash>
+        <record_name>Content-type</record_name>
+        <reverted_from/>
+        <source>d26c5b8a2fe52410bae5a1fef699b6b4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 17:44:35</sys_created_on>
+        <sys_id>4918996e2f61a410bae5a1fef699b660</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176e83ff8310000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 17:44:35</sys_updated_on>
+        <type>HTTP Headers</type>
+        <update_guid>4118996e9c61a4109c1c658f3caac760</update_guid>
+        <update_guid_history>4118996e9c61a4109c1c658f3caac760:-1164526061</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-09 17:51:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_rest_message_fn_headers">sys_rest_message_fn_headers</sys_db_object>
+        <sys_id>20f86eef59124f688fca6a0afd61ea89</sys_id>
+        <sys_metadata>09f75d6e2f61a410bae5a1fef699b63b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content-type</sys_name>
+        <sys_package display_value="IPLookup" source="x_61792_iplookup">966cdf0a2fe52410bae5a1fef699b6a7</sys_package>
+        <sys_parent display_value="GetIPInfo">867ddfca2fe52410bae5a1fef699b69d</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IPLookup">966cdf0a2fe52410bae5a1fef699b6a7</sys_scope>
+        <sys_scope_delete display_value="">6a76ef6ce72243288781572bc4de0440</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_headers_09f75d6e2f61a410bae5a1fef699b63b</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_headers_09f75d6e2f61a410bae5a1fef699b63b">4918996e2f61a410bae5a1fef699b660</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-09 17:51:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

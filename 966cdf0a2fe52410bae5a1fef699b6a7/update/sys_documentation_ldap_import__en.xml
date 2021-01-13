@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="TEST LDAP Server/Users" language="en" table="ldap_import">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>TEST LDAP Server/Users</label>
+            <language>en</language>
+            <name>ldap_import</name>
+            <plural>TEST LDAP Server/Users</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-12 11:45:09</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>9192ebdb2f21a810bae5a1fef699b67c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>TEST LDAP Server/Users</sys_name>
+            <sys_package display_value="IPLookup" source="x_61792_iplookup">966cdf0a2fe52410bae5a1fef699b6a7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IPLookup">966cdf0a2fe52410bae5a1fef699b6a7</sys_scope>
+            <sys_update_name>sys_documentation_ldap_import__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-12 11:45:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

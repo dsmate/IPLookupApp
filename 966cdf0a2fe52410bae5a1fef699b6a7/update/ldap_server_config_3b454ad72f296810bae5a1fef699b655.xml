@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ldap_server_config">
+    <ldap_server_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes>mail,sn</attributes>
+        <authenticate>true</authenticate>
+        <connect_timeout>10</connect_timeout>
+        <dn>cn=read-only-admin,dc=example,dc=com</dn>
+        <dn_field/>
+        <listen_interval>5</listen_interval>
+        <listener>true</listener>
+        <map/>
+        <mid_server/>
+        <name>TEST LDAP Server</name>
+        <paging>true</paging>
+        <password>MEyi3jQvb+N7MaSa+EyjGA==</password>
+        <rdn>dc=example,dc=com</rdn>
+        <read_timeout>30</read_timeout>
+        <server_url>ldap://ldap.forumsys.com:389/</server_url>
+        <ssl>false</ssl>
+        <sys_class_name>ldap_server_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-12 04:58:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3b454ad72f296810bae5a1fef699b655</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>TEST LDAP Server</sys_name>
+        <sys_package display_value="IPLookup" source="x_61792_iplookup">966cdf0a2fe52410bae5a1fef699b6a7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IPLookup">966cdf0a2fe52410bae5a1fef699b6a7</sys_scope>
+        <sys_update_name>ldap_server_config_3b454ad72f296810bae5a1fef699b655</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-12 11:26:37</sys_updated_on>
+        <system_id>app131150.ytz3.service-now.com:dev33900563</system_id>
+        <vendor>active_directory</vendor>
+    </ldap_server_config>
+</record_update>

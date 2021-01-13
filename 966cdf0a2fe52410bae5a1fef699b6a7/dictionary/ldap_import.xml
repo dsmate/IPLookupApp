@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="TEST LDAP Server/Users" max_length="40" name="ldap_import" sizeclass="2" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dn" label="dn" max_length="255" name="u_dn" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=mail" label="mail" max_length="40" name="u_mail" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sn" label="sn" max_length="40" name="u_sn" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=source" label="source" max_length="255" name="u_source" type="string"/>
+    </element>
+</database>
